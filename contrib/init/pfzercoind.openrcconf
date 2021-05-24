@@ -1,0 +1,26 @@
+# /etc/conf.d/pfzercoind: config file for /etc/init.d/pfzercoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/pfzercoin/pfzercoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/pfzercoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/pfzercoind.pid"
+
+# Where to write pfzercoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/pfzercoind"
+
+# User and group to own pfzercoind process
+#BITCOIND_USER="pfzercoin"
+#BITCOIND_GROUP="pfzercoin"
+
+# Path to pfzercoind executable
+#BITCOIND_BIN="/usr/bin/pfzercoind"
+
+# Nice value to run pfzercoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

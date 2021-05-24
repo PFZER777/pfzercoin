@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PfzerCoin
+Comment=PfzerCoin P2P Cryptocurrency
+Comment[fr]=PfzerCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=PfzerCoin, eşten eşe kriptografik sanal para birimi
+Exec=pfzercoin-qt %u
+Terminal=false
+Type=Application
+Icon=pfzercoin128
+MimeType=x-scheme-handler/pfzercoin;
+Categories=Office;Finance;

@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/pfzercoin_bg.qm</file>
+        <file alias="ca">locale/pfzercoin_ca.qm</file>
+        <file alias="cs">locale/pfzercoin_cs.qm</file>
+        <file alias="da">locale/pfzercoin_da.qm</file>
+        <file alias="de">locale/pfzercoin_de.qm</file>
+        <file alias="en">locale/pfzercoin_en.qm</file>
+        <file alias="en_US">locale/pfzercoin_en_US.qm</file>
+        <file alias="eo">locale/pfzercoin_eo.qm</file>
+        <file alias="es">locale/pfzercoin_es.qm</file>
+        <file alias="es_ES">locale/pfzercoin_es_ES.qm</file>
+        <file alias="fi">locale/pfzercoin_fi.qm</file>
+        <file alias="fr_FR">locale/pfzercoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/pfzercoin_hi_IN.qm</file>
+        <file alias="hr">locale/pfzercoin_hr.qm</file>
+        <file alias="hr_HR">locale/pfzercoin_hr_HR.qm</file>
+        <file alias="it">locale/pfzercoin_it.qm</file>
+        <file alias="ja">locale/pfzercoin_ja.qm</file>
+        <file alias="ko_KR">locale/pfzercoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/pfzercoin_lt_LT.qm</file>
+        <file alias="nl">locale/pfzercoin_nl.qm</file>
+        <file alias="pl">locale/pfzercoin_pl.qm</file>
+        <file alias="pt">locale/pfzercoin_pt.qm</file>
+        <file alias="pt_BR">locale/pfzercoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/pfzercoin_ro_RO.qm</file>
+        <file alias="ru">locale/pfzercoin_ru.qm</file>
+        <file alias="sk">locale/pfzercoin_sk.qm</file>
+        <file alias="sv">locale/pfzercoin_sv.qm</file>
+        <file alias="tr">locale/pfzercoin_tr.qm</file>
+        <file alias="uk">locale/pfzercoin_uk.qm</file>
+        <file alias="vi">locale/pfzercoin_vi.qm</file>
+        <file alias="zh_CN">locale/pfzercoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/pfzercoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
