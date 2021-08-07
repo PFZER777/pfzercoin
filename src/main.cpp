@@ -6537,12 +6537,12 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 int ActiveProtocol()
 {
 	// SPORK_14 was used for 90053 (v1.0.0+)
-	     if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
-	        return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
+	     //if (IsSporkActive(SPORK_14_NEW_PROTOCOL_ENFORCEMENT))
+	        //return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
 
-	// SPORK_15 is used for 90054 (v1.0.1+)
-	   //if (IsSporkActive (SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
-		  //return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
+	// SPORK_15 is used for 90054 (v2.0.0+)
+	     if (IsSporkActive (SPORK_15_NEW_PROTOCOL_ENFORCEMENT_2))
+		 return MIN_PEER_PROTO_VERSION_AFTER_ENFORCEMENT;
 
 	return MIN_PEER_PROTO_VERSION_BEFORE_ENFORCEMENT;
 }
