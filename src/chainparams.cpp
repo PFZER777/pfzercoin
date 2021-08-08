@@ -242,6 +242,13 @@ public:
       }
     });
     vMasternodePhasen.push_back ({
+      65000,
+      {
+        { 177000 * COIN, 80 },
+        { 1500000 * COIN, 0 }
+      }
+    });
+    vMasternodePhasen.push_back ({
       70000,
       {
         { 177000 * COIN, 0 },

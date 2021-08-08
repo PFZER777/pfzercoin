@@ -195,7 +195,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
     ui->labelTotalz->setText(BitcoinUnits::floorHtmlWithUnit(nDisplayUnit, sumTotalBalance, false, BitcoinUnits::separatorAlways));
 
     QNetworkAccessManager *manager = new QNetworkAccessManager(this);
-    QNetworkReply *reply = manager->get (QNetworkRequest (QUrl ("https://api.coingecko.com/api/v3/coins/pfzercoin?localization=false")));
+    QNetworkReply *reply = manager->get (QNetworkRequest (QUrl ("https://api.coingecko.com/api/v3/coins/pfzer-coin?localization=false")));
 
     connect (reply, SIGNAL (finished ()), this, SLOT (syncRequestFinished ()));
 
